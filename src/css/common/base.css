@@ -1,0 +1,25 @@
+html {
+	scroll-behavior: smooth;
+    background-color: var(--header-bg);
+}
+
+body {
+	color: var(--text-color);
+	text-wrap: balance;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: var(--link-color);
+}
+
+.dispNone {
+	display: none;
+}
+
+.dispBlock {
+	display: block;
+}

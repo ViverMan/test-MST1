@@ -1,0 +1,186 @@
+.form {
+    margin: 100px 0;
+
+    @media (max-width: 989px) {
+        margin: 40px 0;
+    }
+}
+.form__wrapper {
+    position: relative;
+    z-index: 1;
+    background-image: url('./../img/main/section-order/5.1.jpg');
+    background-position: 300px center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    background-color: var(--text-color-white);
+    border-radius: 30px;
+    padding: 71px 134px 71px 134px;
+
+    @media (max-width: 989px) {
+        background-image: none;
+        padding: 41px 64px;
+    }
+
+    @media (max-width: 669px) {
+        background-image: none;
+        padding: 20px;
+    }
+}
+.form__wrapper::before {
+    content: url('./../img/main/section-order/photo_1.png');;
+    position: absolute;
+    z-index: -1;
+    max-height: 650px;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+
+    /* @media (max-width: 989px) {
+        display: none;
+    } */
+}
+@media (max-width: 989px) {
+    .form__wrapper::before {
+        display: none;
+    }
+}
+.form__title {
+    font-family: var(--font-titles);
+    font-weight: 400;
+    font-size: clamp(24px, 5vw, 54px);
+    line-height: 110%;
+    color: var(--text-color-form-title);
+    margin-bottom: 45px;
+}
+.form__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input-name {
+    border: 2px solid #d6d6d6;
+    border-radius: 4px;
+    padding: 18px 38px 14px 38px;
+    margin-bottom: 13px;
+    max-width: 781px;
+    font-size: clamp(16px, 2vw, 24px);
+    transition: all 0.2s ease-in;
+
+}
+.form__input-name--error {
+    border: 2px solid #ff0000;
+}
+/* .form__input-name:hover {
+    border: 2px solid #405d65;
+} */
+.form__input-name:focus {
+    border: 2px solid #405d65;
+}
+.form__input-name::placeholder {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: clamp(16px, 2vw, 24px);
+    line-height: 150%;
+    color: var(--text-color-form);
+    opacity: 0.7;
+}
+.form__input-email {
+    border: 2px solid #d6d6d6;
+    border-radius: 4px;
+    padding: 18px 38px 14px 38px;
+    margin-bottom: 26px;
+    max-width: 781px;
+    font-size: clamp(16px, 2vw, 24px);
+    transition: all 0.2s ease-in;
+}
+.form__input-email--error {
+    border: 2px solid #ff0000;
+}
+/* .form__input-email:hover {
+    border: 2px solid #405d65;
+} */
+.form__input-email:focus {
+    border: 2px solid #405d65;
+}
+.form__input-email::placeholder {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: clamp(16px, 2vw, 24px);
+    line-height: 150%;
+    color: var(--text-color-form);
+    opacity: 0.7;
+}
+.form__input-checkbox-wrapper {
+    margin-bottom: 26px;
+}
+.form__input-checkbox {
+    display: none;
+}
+.form__input-checkbox-custom {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 2px solid #405d65;
+    border-radius: 4px;
+    position: relative;
+}
+.form__input-checkbox-custom--error {
+    border: 2px solid #ff0000;
+}
+
+.form__input-checkbox-custom::before {
+    content: url('./../img/main/section-order/cheked.svg');
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+.form__input-checkbox:checked + .form__input-checkbox-custom::before {
+    opacity: 1;
+}
+.form__input-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 16px;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 130%;
+    color: #55565a;
+}
+.form__input-button {
+    padding: 28px 0;
+    max-width: 781px;
+    background-color: var(--bg-color-black);
+    color: var(--text-color-white);
+    border-radius: 4px;
+
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: clamp(16px, 2vw, 24px);
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    transition: all 0.2s ease-in;
+
+    @media (max-width: 989px) {
+        background-image: none;
+        padding: 16px 0;
+    }
+}
+.form__input-button:hover {
+    background-color: var(--text-color-black);
+    text-shadow: 1px 3px 5px #969696, 1px 2px 5px #aba8a8;
+}
+.form__input-button:active {
+	position:relative;
+	top:2px;
+}

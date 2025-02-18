@@ -1,0 +1,140 @@
+{
+    "header": {
+        "logo": {
+            "name": "lorem",
+            "url": "#!"
+        },
+        "menu": [
+            {
+                "name": "consectetur",
+                "url": "#!"
+            },
+            {
+                "name": "sit amet",
+                "url": "#!"
+            },
+            {
+                "name": "eiusmod tempor",
+                "url": "#!"
+            }
+        ]
+    },
+    "main": {
+        "sectionTop": {
+            "title": "Lorem ipsum dolor sit amet",
+            "text": "sed do eiusmod tempor",
+            "info": [
+                        {
+                            "img": "./img/main/section1/tick.svg",
+                            "text": "do consectetur elit",
+                            "subtext": "$10 000"
+                        },
+                        {
+                            "img": "",
+                            "text": "sed do eiusmod tempor",
+                            "subtext": "30%"
+                        },
+                        {
+                            "img": "",
+                            "text": "do adipiscing elit sed do",
+                            "subtext": "17%"
+                        }
+                    ],
+            "button": {
+                "name": "Order",
+                "url": "#!"
+            }  
+        },
+        "sectionBottom": {         
+                "info": [
+                    {
+                        "img": "",
+                        "text": "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor"
+                    },
+                    {
+                        "img": "",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    },
+                    {
+                        "img": "",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    },
+                    {
+                        "img": "",
+                        "text": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    }      
+                ],
+                "button": {
+                    "name": "Order",
+                    "url": "#!"
+                },
+                "img-left": {
+                    "alt": "lorem",
+                    "url": "#!"
+                },
+                "img-right": {
+                    "alt": "lorem",
+                    "url": "#!"
+                }
+        },
+        "form": {
+            "title": "Lorem ipsum dolor sit amet",
+            "name": "name",
+            "email": "email",
+            "accept": "I accept Privacy policy",      
+            "button": {
+                "text": "Submit Form",
+                "url": "#!"
+            },
+            "img-bg" : {
+                "alt": "lorem",
+                "url": "#!"
+            },
+            "img-girl" : {
+                "alt": "lorem",
+                "url": "#!"
+            }
+        }
+    },
+    "footer": {
+        "items": ["consectetur", "Adipiscing", "tempor"],
+        "logo": {
+            "name": "lorem",
+            "alt": "lorem",
+            "url": "#!"
+        },
+        "social": [
+            {
+                "name": "instagram",
+                "url": "#!"
+            },
+            {
+                "name": "twitter",
+                "url": "#!"
+            },
+            {
+                "name": "linkedin",
+                "url": "#!"
+            },
+            {
+                "name": "facebook",
+                "url": "#!"
+            },
+            {
+                "name": "telegram",
+                "url": "#!"
+            },
+            {
+                "name": "youtube",
+                "url": "#!"
+            }
+        ],
+        "copyright": "© 2024, Copyright.",
+        "privacy": "Privacy policy",
+        "terms": "Terms of use",
+        "button": {
+            "name": "Order",
+            "url": "#!"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+:root {
+    --container-width: 1600px;
+	--container-padding: 15px;
+
+    --font-main: 'Arial Regular', sans-serif;
+    --font-btn: 'Arial Bold', sans-serif;
+	--font-accent: 'Arial Bold', sans-serif;
+	--font-titles: 'Prata Regular', sans-serif;
+
+	--section-bg: #282829;
+	--header-bg: #222222;
+    --footer-bg: #222222;
+
+	--text-color-white: #fff; 
+	--text-color-black: #222222;
+    --text-color-form-title: #38535D;
+	--text-color-grey: #999999;
+	--text-color-form: #55565a;
+	--link-color: #ffffff;
+	--text-color-footer: #d5c9be;
+
+	--bg-color-white: #fff;
+	--bg-color-black: #222222;
+
+    --border-radius: 4px;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
