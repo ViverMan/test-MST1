@@ -12,8 +12,8 @@
     background-position: 300px center; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 
-    overflow-x: hidden;
     background-color: var(--text-color-white);
     border-radius: 30px;
     padding: 71px 134px 71px 134px;
