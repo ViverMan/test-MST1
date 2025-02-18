@@ -13,7 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    
+    overflow-x: hidden;
     background-color: var(--text-color-white);
     border-radius: 30px;
     padding: 71px 134px 71px 134px;
@@ -35,7 +35,7 @@
     max-height: 650px;
     bottom: 0;
     right: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 
     /* @media (max-width: 989px) {
         display: none;
